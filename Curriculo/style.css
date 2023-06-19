@@ -1,0 +1,30 @@
+html,body,h1,h2,h3,h4,h5,h6 {
+    font-family: "Roboto", sans-serif
+}
+      .container {
+    width: 500px;
+    height: auto;
+    border: 1px solid black;
+}
+
+.profile-image {
+    width: 120px;
+    height: 120px;
+    float: right;
+    margin-left: 10px;
+    border-radius: 50%;
+}
+
+    /* Estilize o link */
+    a {
+        font-family: "Arial", sans-serif; /* Altere para a fonte desejada */
+        font-size: 15px; /* Altere o tamanho da fonte conforme necessário */
+        color: #000b82; /* Altere a cor do texto */
+        /*text-decoration: none; /* Remova a decoração de texto padrão */
+        font-weight: bold; /* Adicione negrito ao texto */
+    }
+
+    /* Altere a cor do link ao passar o mouse sobre ele */
+    a:hover {
+        color: #800000; /* Altere a cor do texto ao passar o mouse */
+    }
